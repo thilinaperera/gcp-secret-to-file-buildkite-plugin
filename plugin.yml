@@ -1,0 +1,13 @@
+name: GCP Secret To File
+description: Read secrets from Google Cloud Secret Manager
+author: https://github.com/thilinaperera/gcp-secret-to-file-buildkite-plugin
+requirements:
+  - gcloud
+  - jq
+configuration:
+  properties:
+    credentials_file:
+      type: string
+    env:
+      type: object
+  additionalProperties: false

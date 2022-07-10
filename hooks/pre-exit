@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -euo pipefail
+
+echo "--- :leftwards_arrow_with_hook: Cleaning up"
+
+git clean -ffxdq
